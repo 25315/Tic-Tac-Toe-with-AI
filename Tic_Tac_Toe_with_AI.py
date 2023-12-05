@@ -1,4 +1,7 @@
- count = 0       # variable to count the nubmer of chances the computer has done used to calculate the number of leaf nodes
+d = []      # list to store the depth 
+leaf = 0  # variable to count the nubmer of leaf nodes
+leaf1 = 0
+count = 0       # variable to count the nubmer of chances the computer has done used to calculate the number of leaf nodes
 def printBoard(board):
     print(board[1] + '|' + board[2] + '|' + board[3])
     print('-+-+-')
